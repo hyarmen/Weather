@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        text-align: center;
+        background-color: #09090a;
+        color: white;
+        font-family: "Inter", sans-serif;
+      }
+
+      h1 {
+        color: #eab308;
+        line-height: 48px;
+      }
+
+      h2 {
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 48px;
+      }
+
+      ul {
+        list-style: none;
+        display: block;
+        margin: 16px 0;
+      }
+
+      li {
+        padding: 10px 0;
+        display: block;
+        margin: 0 auto;
+        border-radius: 3px;
+        max-width: 430px;
+        transition: all 200ms ease-in-out;
+      }
+
+      li:hover {
+        background-color: rgba(234, 179, 8, 0.01);
+        max-width: 430px;
+      }
+
+      h3 {
+        margin: 18px 0;
+        font-size: 16px;
+      }
+
+      p {
+        color: #a1a1aa;
+        font-family: "Courier New", Courier, monospace;
+        margin-bottom: 18px;
+        font-size: 15px;
+      }
+
+      button {
+        background-color: #eab308;
+        padding: 15px 20px;
+        border: 1px solid #eab308;
+        border-radius: 30px;
+        transition: all 200ms ease-in-out;
+        margin-bottom: 20px;
+      }
+
+      button:hover {
+        background-color: #09090a;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div>
+        <h1>
+          <div>⛅</div>
+          Currently 21° in Tokyo
+        </h1>
+      </div>
+      <div>
+        <h2>13° / <strong>23°</strong></h2>
+      </div>
+    </div>
+
+    <ul>
+      <li class="otherDay">
+        <h3>🌧Tomorrow</h3>
+        <div>
+          <p>10° / <strong>22°</strong></p>
+        </div>
+      </li>
+      <li class="otherDay">
+        <h3>⛅Saturday</h3>
+        <div>
+          <p>15° / <strong>17°</strong></p>
+        </div>
+      </li>
+      <li class="otherDay">
+        <h3>☀Sunday</h3>
+        <div>
+          <p>25° / <strong>28°</strong></p>
+        </div>
+      </li>
+    </ul>
+
+    <button>Change city</button>
+
+    <p>Coded by Ana Rosa Fernandes</p>
+  </body>
+</html>
